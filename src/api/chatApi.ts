@@ -1,6 +1,5 @@
 import type { ChatRequest, ChatResponse } from "../types/chat";
 
-// Если используем Vite proxy, можно оставлять "/api/chat"
 const API_URL = "/api/chat";
 
 export const sendMessage = async (text: string): Promise<ChatResponse> => {
